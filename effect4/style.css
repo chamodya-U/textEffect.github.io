@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.portfolio-experiment {
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.experiment-title {
+  outline: none;
+  font-size: 10vw;
+  text-align: center;
+  font-family: "Roboto", monospace;
+
+  max-width: 80vw;
+  min-width: 10vw;
+
+  display: inline-block;
+}
